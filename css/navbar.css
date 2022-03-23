@@ -1,0 +1,42 @@
+
+.navbar .navbar-nav .nav-link {color:#fff; font-size:18px;} 
+.navbar .navbar-nav .active>.nav-link, .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show, .navbar .navbar-nav .show>.nav-link,.navbar .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:hover {color:#ccc !important;}
+.navbar .nav-item .nav-link:hover,.navbar .nav-item .nav-link:focus,.navbar .nav-item .nav-link.active{color:#ccc !important;}
+
+/*******************************Dropdown Menu*****************************************/
+.dropdown-menu {padding:8px 8px; margin:0; min-width:13rem; background-color:#fff;}
+.dropdown-item {color:#636567; padding:4px 10px 4px 10px;font-size:14px;}
+.dropdown-item:focus, .dropdown-item:hover {background-color:transparent; color:#f69322;}
+.dropdown-menu li+li .dropdown-item {border-top:1px solid #ccc;}
+
+/*******************************Ipad Device L***************************************/
+@media (min-width: 1920px) {}
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {}
+@media (min-width: 991.98px) and (max-width: 1199.98px){.navbar-nav>li+li {margin-left:30px !important;}}
+
+/******************************* Max-width-768 ***************************************/
+@media (min-width:768px) {
+.navbar-nav>li+li {margin-left:50px;}
+}
+
+/******************************* Ipad Device W ***************************************/
+@media (min-width:768px) and (max-width:991.98px) {.navbar-nav>li+li {margin-left:10px !important;} .navbar .navbar-nav .nav-link {font-size:16px !important;}}
+
+/******************************* Max-width-640 ***************************************/
+@media (max-width:767.98px) {
+.navbar-nav>li+li {margin-left:0px;}
+.navbar-toggler{position:absolute;top:-40px;right:0px;background-color:#fff !important; outline:none !important;} .navbar .nav-item .nav-link{padding:10px 15px;border-radius:0px;} .navbar-nav{margin-top:10px;}
+.navbar {padding:0 5px !important;} .navbar .nav-item {border-bottom:solid 1px #282829; text-align:center;} .navbar-toggler-icon{width:1em; height:1em; color:#FFF;} .navbar-toggler:focus {box-shadow:none !important;} .navbar .navbar-nav  a {text-decoration: none !important;text-underline-offset: 0px !important;}
+
+
+
+}
+/******************************* Mobile ***************************************/
+@media (max-width:575.98px) {
+.navbar-toggler{top:-35px;} 
+}
+@media (max-width: 479.98px) {
+	
+}
+
+

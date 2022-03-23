@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&family=Raleway:wght@300;400;500&display=swap');
+
+html {scroll-behavior:smooth;}
+body {background:#fff; color:#000; font-family: 'Nunito Sans', sans-serif; font-size:17px; font-weight:200; line-height:1.5;}
+
+.font-nunito {font-family: 'Nunito Sans', sans-serif;}
+.font-raleway {font-family: 'Raleway', sans-serif;}
+
+*, *:focus {outline:none !important; transition:all 0.3s ease 0s;}
+
+a {text-decoration:none !important; color:#000;} a:hover{color:#ccc;}
+p{margin-bottom:25px;} .nomrgn{margin:0px !important;}
+hr{background-color:#e6e5e5;}
+
+/***************************/
+.btn{moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;text-decoration:none !important; font-weight:300; font-size:18px; padding:6px 26px; font-family: 'Raleway', sans-serif; vertical-align:top; border-radius:0px; text-transform:uppercase;  letter-spacing:0.3em; box-shadow:none !important;}
+
+.btn-sm{padding:18px 50px !important;} 
+
+.btn-outline-light{background-color:transparent; border-color:#fff !important; color:#fff;}
+.btn-outline-light:hover,.btn-outline-light.focus,.btn-outline-light:focus{background-color:#fff !important; border-color:#fff !important;color:#000 !important;}
+
+.text-secondary {color:#4D4D4D !important;}
+
+.bg-secondary {background-color:#EDEDED !important;}
+
+/*****************************/
+.fw-extra-light{font-weight:200 !important;}
+.fw-light{font-weight:300 !important;}
+.fw-normal{font-weight:400 !important;}
+.fw-medium{font-weight:500 !important;}
+
+.fs-40{font-size:40px !important;}
+
+.ls-2{letter-spacing:.2em !important;} .ls-1{letter-spacing:.1em !important;}
+
+/*****************************/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {font-family: 'Raleway', sans-serif; line-height:1; text-transform:uppercase;}
+h1, .h1 {font-size:35px;}
+h2, .h2 {font-size:25px;}
+h3, .h3 {font-size:30px;}
+h4, .h4 {font-size:16px;}
+h5, .h5 {font-size:12px;}
+
+
+/********** Back To Top Button ***************************************************************************************************/
+#scroll {position:fixed; right:10px; bottom:10px; z-index:99999; cursor:pointer; width:45px; height:45px; text-align:center; line-height:43px; background:#000; color:#fff !important;}
+#scroll:hover {opacity:.7;}
